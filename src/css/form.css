@@ -1,0 +1,64 @@
+.form-wrapper {
+    padding: 1em 0 3em 0;
+    width: 60%;
+    margin: 5em auto;       
+    text-align: center;
+}
+
+.form-wrapper h2 {
+    color: whitesmoke;
+}
+
+.form-wrapper form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-group label{    
+    padding: 0 1em 1em 0;
+    text-align: left;
+    font-size: 1.2em;
+    color: wheat;
+}
+
+.form-wrapper input {
+   padding: 10px;
+   outline: none;
+   font-size: 20px;
+   border-radius: 0.5em;
+   background-color: whitesmoke;
+}
+
+.form-wrapper input:active,
+.form-wrapper input:focus {
+    border-color: rgb(1, 44, 4);
+}
+
+
+.form-wrapper [type="submit"] {
+    padding: 10px 20px;
+    margin: 20px;   
+    background-color: rgb(1, 44, 4);
+    border-radius: 0.5em;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(1, 44, 4);
+}
+
+.form-wrapper [type="submit"]:hover {
+    background-color: white;
+    border-radius: 0.5em;
+    color: rgb(1, 44, 4);
+    border: 2px solid rgb(1, 44, 4);
+    font-size: 18px;
+    font-weight: bold;
+}
+

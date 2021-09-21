@@ -1,0 +1,42 @@
+[{
+  "id": 1,
+  "question": "Which is the missing line?",
+  "additional": "item.addEventListener('click',() => { console.log(item.getAttribute('payload'));",
+  "answers": {
+    "a": "const a = addlistener",
+    "b": "const b = Different.addlistener"
+  },
+  "success": "a"
+},
+{
+  "id": 2,
+  "question": "React is a JavaScript library for?",
+  "additional": "React!?",
+  "answers": {
+    "a": "loading easier data from the server",
+    "b": "building user interfaces"
+  },
+  "success": "b"
+},
+{
+  "id": 3,
+  "question": "What should be added?",
+  "additional": "fetch('./data/fakeData.json').then((res) => ...).then((data) => {console.log('data:', data);})",
+  "answers": {
+    "a": "res.json()",
+    "b": "res.join(' ')"
+  },
+  "success": "a"
+},
+{
+  "id": 4,
+  "question": "What will do the next?",
+  "additional": "listArr.map( el => (<li key={el.id}>{el.title}</li>)) ",
+  "answers": {
+    "a": "map() creates array and circle on every element of 'list' and for every element creates list item with the title inside",
+    "b": "we have unordered list, and for every element, we create list item with el.title inside"
+  },
+  "success": "a"
+}
+
+]

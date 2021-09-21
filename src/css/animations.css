@@ -1,0 +1,16 @@
+
+@keyframes animate {
+    from {
+        transform: translateY(10em);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+    .animation {
+        animation: animate 1s;
+    }

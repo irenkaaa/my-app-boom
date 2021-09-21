@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    width: 100%;
+  }
+ 
+}
+
+@media only screen and (min-width: 992px) {
+  /*small laptops*/
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+  /*normal laptops*/
+
+}
